@@ -318,8 +318,9 @@ button {
   padding: 80px 50px;
   display: flex;
   justify-content: space-between;
+  padding: 80px 50px;
   gap: 50px;
-  align-items:center;
+  align-items:flex-end;
 }
 
 .program-text{
@@ -379,6 +380,58 @@ height: 50%;
         grid-template-columns: 1fr;
     }
 }
+
+/* summit-section */
+
+.summit-page{
+  background: rgba(5,5,5,0.7) url(/images/summit-team.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+justify-content: space-between;
+align-items: flex-end;
+padding: 50px 80px;
+color: white;
+  
+}
+
+/* summit-logo */
+.summit-logo{
+  width: 180px;
+  height:auto;
+}
+
+.right-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.summit-head{
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0;
+}
+
+.right-btn{
+  background: #b4be2b;
+    padding: 15px 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.right-btn:hover {
+    background: #cfe011;
+}
+
+
+
 
 
 
